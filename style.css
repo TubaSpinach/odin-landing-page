@@ -18,7 +18,7 @@ li a, .hero p {
     font-size: 18px;
 }
 
-.header {
+.header, .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,4 +179,13 @@ button {
 .call-box button{
     border-color: #f9faf8;
     font-size: 12px;
+}
+
+.footer {
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+.footer p{
+    color: #f9faf8;
 }
