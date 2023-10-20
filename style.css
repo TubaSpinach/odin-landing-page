@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
 }
 
-li a {
+li a, .hero p {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -46,6 +46,24 @@ li a {
     color: #f9faf8;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 16px;
+    gap: 8px;
+}
+
 .hero img{
     max-height: 256px;
 }
+
+.hero h1{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 8px;
+}
+
+
+
