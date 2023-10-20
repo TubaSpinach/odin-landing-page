@@ -143,3 +143,36 @@ button {
     color: #1f2937;
     
 }
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 48px 0px;
+}
+
+.call-box {
+    background-color: #3882f6;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    margin: 0px;
+    gap: 12vw;
+}
+
+.call-box h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.call-box p {
+    font-size: 12px;
+    color: #e5e7eb;
+}
+
+.call-box button{
+    border-color: #f9faf8;
+    font-size: 12px;
+}
