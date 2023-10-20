@@ -48,7 +48,7 @@ li a, .hero p {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     background-color: #1f2937;
     padding: 16px;
@@ -76,4 +76,35 @@ button {
     padding: 8px 24px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 
+.info h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    text-align: center;
+}
+
+.stories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.short-story img{
+    max-height: 200px;
+    
+    border: 8px #1f2937;
+    border-radius: 16px;
+    border-style: solid;
+}
+
+.short-story p{
+    max-width: 200px;
+}
